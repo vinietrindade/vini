@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exercicio1;
+import java.util.Scanner;
+/**
+ *
+ * @author VICTOR
+ */
+public class adicionarNome {
+    public String[] nomes = new String[5];
+    public String nome;
+    int contador;
+    public void adicionar(String nome) {
+            for (int i = 0; i < this.nomes.length; i++) {
+                if(this.nomes[i] != null){
+                this.contador += 1;
+                }
+         }
+           this.nomes[contador] = nome;
+    }
+
+}
