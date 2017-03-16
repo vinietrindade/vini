@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exercicio1;
+import java.util.Scanner;
+/**
+ *
+ * @author VICTOR
+ */
+public class pesquisarNome {
+    public Iterable<String> nomes;
+    
+    public void pesquisa(){
+    Scanner in = new Scanner(System.in);
+    String pesquisa;
+    int j = 0;
+    int w = 0;
+    pesquisa = in.next();
+    for (int i = 0; i < this.nomes.; i++) {
+        if(this.nomes[i] == pesquisa){
+            j = i;
+            w++;
+        }
+       }
+    if(w > 0)
+    {
+        System.out.println("Nome Encontrado e sua posição é: "+ j);
+    }
+    else
+    {
+        System.out.println("Nome não Encontrado");
+    }
+}
+
+    
+}
