@@ -89,6 +89,26 @@ void removerNo(no **raiz, int elemento) {
 
 }
 
+void buscaRecursiva(no **raiz, int elemento) {
+
+	if (elemento < (*raiz)->valor)
+	{
+		buscaRecursiva(&(*raiz)->esq, elemento);
+	}
+	if (elemento > (*raiz)->valor)
+	{
+		buscaRecursiva(&(*raiz)->dir, elemento);
+	}
+	if (elemento == (*raiz)->valor)
+	{
+		printf("\no elemento %d foi encontrado...", elemento);
+	}
+	if (elemento != (*raiz)->valor)
+	{
+		printf("\no elemento %d não foi encontrado...", elemento);
+	}
+}
+
 void preOrdem(no *raiz) {
 
 	if (raiz == NULL)
@@ -135,6 +155,8 @@ int main() {
 	preOrdem(raiz);
 	posOrdem(raiz);
 	inOrdem(raiz);
+	buscaRecursiva(&raiz, 4);
+	buscaRecursiva(&raiz, 6);
 	getchar();
 	return 0;
 }
