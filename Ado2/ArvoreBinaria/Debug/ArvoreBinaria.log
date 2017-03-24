@@ -1,0 +1,4 @@
+﻿  Main.c
+c:\users\victor\documents\visual studio 2017\projects\ado2\arvorebinaria\main.c(53): warning C4715: 'Filhos': nem todos os caminhos de controle retornam um valor
+  ArvoreBinaria.vcxproj -> C:\Users\VICTOR\Documents\Visual Studio 2017\Projects\Ado2\Debug\ArvoreBinaria.exe
+  ArvoreBinaria.vcxproj -> C:\Users\VICTOR\Documents\Visual Studio 2017\Projects\Ado2\Debug\ArvoreBinaria.pdb (Partial PDB)
