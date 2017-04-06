@@ -19,7 +19,7 @@ public class HashSetMain {
      */
     public static void main(String[] args) {
         
-        HashSetMain<Integer> itens = new HashSetMain<Integer>();
+        HashSet<Integer> itens = new HashSet<Integer>();
         
         itens.add(1);
         itens.add(3);
